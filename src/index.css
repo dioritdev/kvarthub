@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.groupChecking input[type=checkbox]:checked+label:after {
+    width: 20px;
+    height: 20px;
+    border: 3px solid #4568AE;
+}
+
+.groupChecking input[type=checkbox]:checked+label svg {
+    display: block;
+}
